@@ -13,7 +13,7 @@ Header set content-Security-Policy: upgrade-insecure-requests
 
            # BEGIN custom php.ini PHPedge
            <IfModule mod_suphp.c>
-               suPHP_ConfigPath /home1/cdesarrollo/devpawn/pawn-system
+#               suPHP_ConfigPath /home1/cdesarrollo/devpawn/pawn-system
            </IfModule>
            # END custom php.ini
            <IfModule mod_rewrite.c>
