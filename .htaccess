@@ -2,7 +2,7 @@
            AddHandler application/x-httpd-php-edge .php
            # BEGIN custom php.ini PHPedge
            <IfModule mod_suphp.c>
-               suPHP_ConfigPath /home2/comproempeno/public_html
+               suPHP_ConfigPath /home1/cdesarrollo/devpawn/pawn-system
            </IfModule>
            # END custom php.ini
            <IfModule mod_rewrite.c>
