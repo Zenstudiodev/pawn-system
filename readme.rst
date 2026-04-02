@@ -1,39 +1,88 @@
-########################################
-Sistema de Gestión para casa de empeño
-########################################
+# ZenPawnSystem – Sistema de Gestión para Casa de Empeño
 
-Sistema de gestión para casa de empeños.
-control de las siguientes entidades.
+ZenPawnSystem es una solución completa para la administración de casas de empeño, diseñada para controlar de forma eficiente clientes, contratos, productos y movimientos financieros.
 
-- Clientes
-- Productos
-- Contratos
-- Facturas
-- Recibos
-- Proveedores
-- Contabilidad
+---
 
-*******************
-Base de Código
-*******************
+## 🚀 Características principales
 
-Creado con el framework CodeIgniter `CodeIgniter Downloads <https://codeigniter.com/download>`_ page.
-y el admin LTE.
+* Gestión de clientes
+* Registro de productos
+* Creación de contratos de empeño
+* Generación de facturas y recibos
+* Control de pagos y abonos
+* Gestión de contratos vencidos
+* Liquidación de productos
+* Control de inventario
+* Módulo básico de contabilidad
 
-Funcionalidades
-*****************
+---
 
-sistema ideado para facilitar:
+## 🧩 Módulos del sistema
 
-- Captura de clientes.
-- Control de ingreso de productos.
-- Creación e impresión de contratos.
-- Creación e impresión de facturas.
-- Creación e impresión de recibos.
-- Control de estado de contratos.
-- Liquidación de productos de contratos vencidos.
-- Ingreso de productos comprados.
-- Venta de productos.
-- control de movimientos contables.
+* Clientes
+* Productos
+* Contratos
+* Facturación
+* Recibos
+* Proveedores
+* Contabilidad
 
-el sistema lleva un control automático de clientes, contratos, facturas recibos y productos. permite a los usuarios registrar todos los movimientos realizados en la tienda.
+---
+
+## ⚙️ Tecnologías utilizadas
+
+* PHP
+* CodeIgniter 3
+* CoreUI
+* Bootstrap 5
+* JavaScript
+
+---
+
+## 📦 Instalación
+
+1. Copiar el sistema en el servidor
+2. Crear base de datos
+3. Importar archivo `.sql`
+4. Configurar:
+
+   * `application/config/database.php`
+   * `application/config/config.php`
+5. Acceder desde el navegador
+
+---
+
+## 🔐 Licencia
+
+Este software es propietario.
+
+El uso está limitado a una sola instalación por licencia adquirida.
+No está permitida su redistribución ni reventa.
+
+Ver archivo `LICENSE.txt` para más detalles.
+
+---
+
+## 👨‍💻 Autor
+
+Carlos Samayoa
+ZenStudioGT
+
+---
+
+## 💼 Uso recomendado
+
+Ideal para:
+
+* Casas de empeño
+* Negocios de compra/venta
+* Control de préstamos con garantía
+
+---
+
+## 📌 Notas
+
+* Sistema optimizado para uso rápido y sencillo
+* Interfaz moderna basada en CoreUI
+* Fácil de instalar y configurar
